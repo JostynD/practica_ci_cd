@@ -1,0 +1,12 @@
+{
+  "name": "simple-deploy-demo",
+  "version": "1.0.0",
+  "description": "App de demostracion para pipeline CI/CD con Jenkins y Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
