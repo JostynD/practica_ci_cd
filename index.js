@@ -13,6 +13,7 @@ app.get('/', (req, res) => {
       <body style="font-family: sans-serif; text-align: center; margin-top: 80px;">
         <h1>${MENSAJE}</h1>
         <h2>${nombre1}</h2>
+        <h2>${nombre2}</h2>
         <p>Desplegado: ${new Date().toISOString()}</p>
       </body>
     </html>
