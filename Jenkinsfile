@@ -43,7 +43,7 @@ pipeline {
 
         stage('Verify Deployment') {
             steps {
-                sh 'sleep 3 && curl -sf http://localhost:$HOST_PORT || (echo "El despliegue no respondio" && exit 1)'
+                sh 'sleep 3 && curl -sf http://host.docker.internal:$HOST_PORT || (echo "El despliegue no respondio" && exit 1)'
             }
         }
     }
