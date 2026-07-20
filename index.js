@@ -5,6 +5,7 @@ const PORT = process.env.PORT || 3000;
 // Cambia este mensaje y haz push a main para ver el despliegue automático en acción
 const MENSAJE = 'Version 1 - Despliegue inicial';
 const nombre1 = 'Jostyn Fabricio Muentes Roca'
+const nombre2 = 'Ariel Joel Choez Cedeño'
 
 app.get('/', (req, res) => {
   res.send(`
