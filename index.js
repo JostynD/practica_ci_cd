@@ -6,6 +6,7 @@ const PORT = process.env.PORT || 3000;
 const MENSAJE = 'Version 1 - Despliegue inicial';
 const nombre1 = 'Jostyn Fabricio Muentes Roca'
 const nombre2 = 'Ariel Joel Choez Cedeño'
+const nombre3 = 'Cristhian Alexander Villigua Soledispa'
 
 app.get('/', (req, res) => {
   res.send(`
@@ -14,6 +15,7 @@ app.get('/', (req, res) => {
         <h1>${MENSAJE}</h1>
         <h2>${nombre1}</h2>
         <h2>${nombre2}</h2>
+        <h2>${nombre3}</h2>
         <p>Desplegado: ${new Date().toISOString()}</p>
       </body>
     </html>
