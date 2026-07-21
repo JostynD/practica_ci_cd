@@ -8,6 +8,7 @@ const nombre1 = 'Jostyn Fabricio Muentes Roca';
 const nombre2 = 'Ariel Joel Choez Cedeño';
 const nombre3 = 'Cristhian Alexander Villigua Soledispa';
 const nombre4 = 'Shirley Lisbeth Vera Pisco';
+const nombre5 = 'Bryan Daniel Delgado Carreño';
 
 app.get('/', (req, res) => {
   res.send(`
