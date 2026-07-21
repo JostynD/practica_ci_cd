@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Cambia este mensaje y haz push a main para ver el despliegue automático en acción
-const MENSAJE = 'Version 1 - Despliegue inicial';
+const MENSAJE = 'Version 2 - Despliegue inicial';
 const nombre1 = 'Jostyn Fabricio Muentes Roca';
 const nombre2 = 'Ariel Joel Choez Cedeño';
 const nombre3 = 'Cristhian Alexander Villigua Soledispa';
